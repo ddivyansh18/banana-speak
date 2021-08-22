@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Shadows+Into+Light&display=swap');
+:root {
+    --primary-color : #FFD55E;
+    --off-white: #D1D5DB;
+    --dark-gray : #6B7280;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+textarea {
+    height : 20vh;
+    width : 80%;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    font: 'Saira Condensed', sans-serif;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    display: block;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centered {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: large;
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 2.5rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    margin-top: 2rem;
+}
+
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}

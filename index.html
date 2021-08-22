@@ -5,38 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea {
-            height : 8vh;
-            width : 80%;
-            margin: 1rem;
-            padding: 1rem;
-            display: block;
-        }
-
-        #output {
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-            display: block;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>talk banana</h1>
+    
+    <nav class="navigation container">
+        <div class="nav-brand container-centered">Banana Language Translator</div>
+    </nav>
+
+    <div class="container container-centered">
+    
     <textarea
     id = "txt-input" 
-    placeholder="Enter english text here to convert to banana language">
-    </textarea>
-    <button id="btn-translate">Click Me</button>
+    class = "container container-centered"
+    placeholder="Enter text here to translate to banana"></textarea>
 
+    
+    <button id="btn-translate" class="btn btn-primary">Translate To Banana</button>
     <div style="font-size: large;">Output will come here 👇</div>
-    <div id="output">Hello World</div>
+    
+
+    <div id="output" class="container container-centered"></div>
+    </div>
+
     <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+        <div class="footer-header">about <br>
+Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</div>
+    </footer>
 
 </body>
 </html>
